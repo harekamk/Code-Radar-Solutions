@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+
 
 char* welcome() {
     return "Welcome to Code Radar!";
@@ -8,7 +8,7 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a== pow(b, 2)){
+    if(a==b*b){
         printf("Yes");
     }else{
         printf("No");
