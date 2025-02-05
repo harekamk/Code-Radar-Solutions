@@ -8,6 +8,6 @@ int main() {
     float n;
     scanf("%f",&n);
     float area=n*n*3.14;
-    printf("Area: %f",area);
+    printf("Area: %.2f",area);
     return 0;
 }
