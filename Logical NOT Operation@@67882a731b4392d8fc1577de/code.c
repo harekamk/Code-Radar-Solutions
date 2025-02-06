@@ -9,6 +9,8 @@ int main() {
     scanf("%d",&n);
     if(n>!0){
         printf("False");
+    }else if(n==1){
+        printf("False");
     }else{
         printf("True");
     }
