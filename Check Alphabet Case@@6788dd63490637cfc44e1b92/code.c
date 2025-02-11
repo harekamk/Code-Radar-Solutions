@@ -5,12 +5,14 @@ char* welcome() {
 }
 
 int main() {
-    char n;
-    scanf(" %c",&n);
-    if(isupper(n)){
+    char ch;
+    scanf("%c",&ch);
+    if(ch>='A' && ch<='Z'){
         printf("Uppercase");
-    }else{
+    }else if(ch>='a' && ch<='z'){
         printf("Lowercase");
+    }else{
+        printf("Invalid input");
     }
     return 0;
 }
