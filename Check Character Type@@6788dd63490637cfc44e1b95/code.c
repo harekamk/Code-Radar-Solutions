@@ -17,7 +17,7 @@ int main() {
     }else if(isdigit(ch)){
         printf("Digit");
     }else{
-        printf("Special character");
+        printf("Special Character");
     }
     return 0;
 }
