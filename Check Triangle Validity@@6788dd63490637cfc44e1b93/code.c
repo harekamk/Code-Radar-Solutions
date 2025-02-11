@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     float a,b,c;
     scanf("%f %f %f",&a,&b,&c);
-    if(a+b>c &7 a+c>b && b+c>a){
+    if(a+b>c && a+c>b && b+c>a){
         printf("Valid");
     }else{
         printf("Invalid");
