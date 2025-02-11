@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 char* welcome() {
     return "Welcome to Code Radar!";
@@ -16,7 +17,7 @@ int main() {
     }else if(isdigit(ch)){
         printf("Digit");
     }else{
-        printf("Special charcater");
+        printf("Special character");
     }
     return 0;
 }
