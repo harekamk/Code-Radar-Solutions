@@ -7,8 +7,8 @@ char* welcome() {
 int main() {
     int a,b;
     char c;
-    scanf("%d %d",&a,&b);
-    scanf("%c",&c);
+    scanf("%d %d %c",&a,&b,&c);
+    
     switch(c){
         case '+':
         printf("%d",a+b);
@@ -26,7 +26,8 @@ int main() {
             printf("not possible");
         }
         break;
-
+        default:
+        printf("Invalid");
     }
 
     return 0;
